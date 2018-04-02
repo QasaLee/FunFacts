@@ -30,6 +30,7 @@ class ViewController: UIViewController {
  
     @IBAction func showFunFact() {
 //        let randomColor = ColorModel().getRandomColor()
+        // MARK: Use other framework.
         let randomColor = Randoms.randomColor();
         view.backgroundColor = randomColor
         funFactButton.tintColor = randomColor
